@@ -1,0 +1,37 @@
+html {
+  font-family: 'Merriweather', serif;
+}
+h1 {
+  font-family: 'Noto Sans', sans-serif;
+}
+.descriprion1__title {
+  color: red;
+}
+.description2__paragraph1 {
+  text-decoration-line: underline;
+}
+.description2__paragraph2 {
+  font-style: italic;
+}
+.description2__paragraph3 {
+  border-left: 2px solid grey;
+  padding-left: 20px;
+  }
+
+@media (min-width: 320px;) {
+  .header__title {
+    font-size: 32px;
+  }
+  .descriprion__title {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 641px;) {
+  .header__title {
+    font-size: 40px;
+  }
+  .descriprion__title {
+    font-size: 30px;
+  }
+}
